@@ -12,3 +12,5 @@
 Private code links require GitHub access.
 
 Add a row whenever you create `projects/<slug>/`.
+
+| clinical-sim | [ClinicalSim — Healthcare Simulation Training](./clinical-sim/BRIEF.md) | Idea / handoff ready | 2026-11-05 | New code repo pending |
