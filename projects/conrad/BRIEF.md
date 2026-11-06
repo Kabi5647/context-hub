@@ -8,6 +8,10 @@ Conrad is a student competition project exploring discharge-instruction verifica
 - Keep generation and verification independent. A clinician starts discharge preparation and reviews the source, instructions and flags before approval.
 - Demonstrate the approach with synthetic examples. Describe prototype evidence without clinical validation or medical-device claims.
 
+## Code repository
+
+[ClearDischarge source](https://github.com/Kabi5647/CONRAD-CLEARFLOW). Sign in with GitHub access to open this private repository.
+
 ## Working context
 
 - [Status](STATUS.md)

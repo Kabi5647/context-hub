@@ -11,4 +11,4 @@
 
 - The local prototype uses deterministic generation and bounded extraction. Unrecognized text and ambiguous changes require human review. A passing comparison covers only the checks the verifier can perform.
 - For speech testing, use only fictional conversations with consent. Browser-service recognition may send audio to the browser provider. On-device-only mode must avoid silent cloud fallback.
-- Keep the local prototype evidence separate from any hosted build. Request source and working-document access from the owner. Use the dated category logs for workflow, clinical safety/testing, security, data, deployment and competition updates.
+- Keep the local prototype evidence separate from any hosted build. Use the source repository linked in the [project brief](../BRIEF.md#code-repository). Request working-document access from the owner. Use the dated category logs for workflow, clinical safety/testing, security, data, deployment and competition updates.

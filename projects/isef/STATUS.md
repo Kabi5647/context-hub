@@ -6,6 +6,7 @@
 
 - The owner identified large moves of roughly 10% and cross-stock responses as the research focus.
 - A draft event-study approach and a math learning sequence were discussed.
+- Checked the owner's GitHub repositories. No code repository for this study was identified.
 
 ## Next
 

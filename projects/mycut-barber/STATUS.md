@@ -5,14 +5,15 @@
 ## Done
 
 - Prior project notes describe a hosted prototype with a photo journal, growth tracking and preparation guides.
-- A separate upgrade preview reportedly added hair-profile setup, measurement help, personalized plans, illustrated walkthroughs and growth tracking. The prior build reported 21 planner tests passing.
+- A separate upgrade preview adds hair-profile setup, measurement help, personalized plans, illustrated walkthroughs and growth tracking.
+- Recovered the original Site source at version 3 and verified its import on `main` in the private `new-repo-2` repository. Recovered the separate planner preview and reran its 21 passing tests.
 
 ## Next
 
-1. Recover the existing Site source and the saved upgrade package through the owner or the original workspace.
-2. Compare the package against the current Site, then integrate the planner into the existing flow.
+1. Compare the recovered planner preview with the original app and document how to migrate existing photo and history data.
+2. Integrate the planner into the original app after confirming the migration path.
 3. Test setup, measurement skips, plan generation and save/resume on mobile and desktop before publishing.
 
 ## Blockers
 
-- The last integration attempt could not reach the source server because of a DNS failure. The upgrade remains a separate preview in the last recorded state. Browser QA and current Site access require confirmation.
+- The planner preview still needs integration and browser QA.

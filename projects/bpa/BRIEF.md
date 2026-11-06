@@ -8,6 +8,10 @@ Stride is a Business Professionals of America (BPA) preparation site for student
 - Use official event references and authorized past papers. Label original practice and unsupported event coverage clearly.
 - Keep Stride as the primary site, preserve its scroll-driven landing animation and red, white, blue and black identity, and selectively borrow landing-page colors and objects from the separate BPA Prep Lab project.
 
+## Code repository
+
+[Stride source](https://github.com/Kabi5647/BPA). Sign in with GitHub access to open this private repository.
+
 ## Working context
 
 - [Status](STATUS.md)

@@ -10,4 +10,4 @@
 ## Implementation notes
 
 - Use structured templates and section-level rules. Computer vision was discussed as a future experiment. Hair segmentation alone does not provide reliable lengths.
-- Keep photos and journal records in the product's intended data boundary. Ask the owner for access to the original source and preview package through the project workspace.
+- Keep photos and journal records in the product's intended data boundary. Use the original app from the [project brief](../BRIEF.md#code-repository) and retrieve the separate planner preview from the project workspace for integration.

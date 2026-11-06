@@ -7,6 +7,7 @@
 - The source documents a local prototype with synthetic cases, editable scribe drafts, manual discharge preparation, instruction generation, independent verification, source evidence, review, final approval and print preview.
 - The source README records 27 automated tests and 20 annotated synthetic fixtures passing for the local development baseline. It also documents browser speech recognition support with limits.
 - Dated category logs exist. The recording issue is user-reported and unresolved. Patient-workspace tab review is planned.
+- Linked the confirmed private `CONRAD-CLEARFLOW` repository from the project brief and index.
 
 ## Next
 

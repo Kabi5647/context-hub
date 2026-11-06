@@ -3,7 +3,7 @@
 ## Source map
 
 - [Public Stride Site](https://stride-bpa-study-kabilen.kabilenmukundhan.chatgpt.site). The guest entry uses `?guest=1#practice`.
-- Request access to the current Stride source through the owner. Start with its README, `dist/wsap-events.js`, `docs/wsap-research.md`, `dist/presentation-coach.js`, and `worker/auth.mjs`. Use the existing Site configuration when publishing.
+- Use the private repository linked in the [project brief](../BRIEF.md#code-repository). Start with its README, `dist/wsap-events.js`, `docs/wsap-research.md`, `dist/presentation-coach.js`, and `worker/auth.mjs`. Use the existing Site configuration when publishing.
 
 ## Working constraints
 

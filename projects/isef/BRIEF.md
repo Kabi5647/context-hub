@@ -8,6 +8,10 @@ A proposed mathematics research project for ISEF on relationships between large 
 - Use reproducible comparisons and describe findings as associations within the study design.
 - Build enough statistics, graph theory and linear algebra understanding to explain and defend the method independently.
 
+## Code repository
+
+No GitHub code repository identified. See the [study design](parts/study-design.md) for the current research notes.
+
 ## Working context
 
 - [Status](STATUS.md)

@@ -8,6 +8,10 @@ Drivekind helps new drivers plan practice sessions with adjustable difficulty, r
 - Give drivers control over difficulty and route preferences. Keep demo routes fictional and have users plan while parked.
 - Keep authentication data separate from practice history when extending account support. Store password hashes.
 
+## Code repository
+
+[Drivekind source](https://github.com/Kabi5647/driving-app). Sign in with GitHub access to open this private repository.
+
 ## Working context
 
 - [Status](STATUS.md)

@@ -2,7 +2,7 @@
 
 ## Source map
 
-- In the owner workspace named `new driver app`, use the `Drivekind` folder extracted from the source export. Start with its README and `EXPORT_NOTES.md`.
+- Clone the private repository linked in the [project brief](../BRIEF.md#code-repository). Start with its README and `EXPORT_NOTES.md`.
 - Routing is in `lib/drivekind/engine.ts` and `app/api/routes/route.ts`. Check `lib/auth.ts`, `app/api/auth/`, `db/schema.ts`, and `drizzle/` for existing account scaffolding.
 - Use the project's test, typecheck and build commands. Existing source and release reports do not establish the hosted account flow.
 
