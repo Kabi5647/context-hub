@@ -1,21 +1,25 @@
-# ClinicalSim — Status
+# ClinicalSim status
 
-Last updated: 2026-11-05
-Stage: Idea specified; implementation pending external coding experiment.
+Last updated 2026-11-08 (America/Chicago)
+
+Stage: CNA pilot merged. Foundations, core learner flow, animation and replay verified. Guest persistence and controlled text are implemented. Clinical review and later phases are pending.
 
 ## Done
-- Defined combined EMT, CNA, and medical-student training vision.
-- Documented case flow, difficulty modes, feedback, replay, visuals, safety requirements and MVP boundaries.
-- Prepared project handoff for Grokbot to implement in a new code repository.
+
+- Code lives in the [private ClinicalSim repository](https://github.com/Kabi5647/clinical-sim). [Pilot PR #3](https://github.com/Kabi5647/clinical-sim/pull/3) merged into main at `107fe317670575c62a3681d73609ac9fea2837dd`. It preserves the inherited engine commit from PR #1.
+- Retained React, Vite, TypeScript, Zod, Vitest, and oxlint. Added team ownership, roadmap, CI, and case integration contracts.
+- Built a responsive landing and training library with EMT, CNA, and Medical Student categories. The introductory fictional CNA pilot supports Guided, Independent, and Timed modes, structured decisions, and confirmed text matches.
+- Added deterministic rubric and decision feedback, SVG Stop-on-Error and Consequence playback, and synchronized original/revised comparison. Completed guest results are stored in the current browser with versioned case and rubric IDs.
+- Windows build, typecheck, lint, and 28 Vitest tests passed. Edge smoke passed at desktop and mobile viewport sizes. [Linux PR CI passed](https://github.com/Kabi5647/clinical-sim/actions/runs/42544804870). All 50 tracked files at the PR head matched the locally tested Git blob hashes.
 
 ## Next
-1. Grokbot reads hub RULES.md, CORE.md, this BRIEF and STATUS, and latest handoff.
-2. Choose first fully developed track (default proposal: EMT), confirm stack and new code repository.
-3. Build shared UI for all three tracks and one end-to-end synthetic case with branching, timed reading, voice/text response, rubric feedback and decision replay.
-4. Add tests, documentation and deployment instructions; report code repo URL here.
-5. Owner returns for code review, preferences and iterative improvements.
 
-## Blockers / unknowns
-- First track and final name not confirmed.
-- Code repository not yet identified or created in this workflow.
-- Medical expert validation required before any educational accuracy claims.
+1. Have a qualified clinical educator review CNA content and rubric v1, including the authored branches, and record the decision in the [clinical review record](https://github.com/Kabi5647/clinical-sim/blob/main/docs/clinical-review/cna-communication-v1.md).
+2. Add guest draft resume, export and deletion, then evaluate provider-backed authentication and authorization with privacy requirements defined.
+3. Add optional speech and constrained fictional dialogue, then expand CNA, EMT, and Medical Student content.
+
+## Blockers and limitations
+
+- The CNA pilot is Needs Clinical Review. EMT and Medical Student have no playable cases yet.
+- Account signup, recovery, and roles await a provider and privacy review for younger learners. Browser-local results can be accessed by users of the same browser profile.
+- No public deployment has been approved. Voice and virtual-patient interaction remain future work.
