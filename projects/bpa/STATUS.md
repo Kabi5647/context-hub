@@ -1,22 +1,26 @@
 # Status — BPA — Stride
 
-**Updated** 2026-11-14
+**Updated** 2026-11-15
 
 ## Done
 
-- Existing Site audience was verified as owner-only with private application approval and Premium entitlements. Earlier public-link descriptions are historical; no public access or guest launch is currently asserted.
-- [Draft PR #1](https://github.com/Kabi5647/BPA/pull/1) adds selected-event plans, skill priorities/search, calendar-day recommendations, Area/State/Nationals original practice and distinct-question evidence. The Banking and Finance bank grows from 24 to 32 while preserving prior question IDs and fixed sets. Other events do not inherit its questions.
-- The same draft adds an isolated five-stage Next.js/TypeScript static introduction and optional Three.js scene, with reduced motion, adaptive quality, fallback and cleanup. Introductory assets are approximately 21 kB gzip plus an optional 147 kB scene; these are bundle estimates, not field performance claims.
-- Approved six-character account recovery is implemented in the draft: one-use display, salted scrypt, 30-day expiration, five-guess invalidation, rotation, atomic redemption and session revocation. Additive migration 0002 is not yet deployed. A Free-account structured-rubric download gap and incorrect owner-recovery mutation were fixed.
-- Builds, strict TypeScript, existing regression suites and account/learning/recovery tests pass locally. Chrome desktop and 390px viewport checks verified the rendered scene, navigation, guest timed practice/results, selected-event recommendations and recovery form. Remote source hashes were checked against the draft commit.
+- [Draft PR #1](https://github.com/Kabi5647/BPA/pull/1), head `8a267b5fd2e9c574976acca0d339d4ae28fba714`, adds all 94 national Secondary/Postsecondary event competency lists: 660 searchable skills with selected-event onboarding, priorities and date/level recommendations.
+- All 46 presentation events have their own source-backed presentation-category mappings, actual component totals, human-review requirements and competition AI policy. Server-side Premium protection remains in place.
+- Reproducible original practice has 423 authored concepts expanded into 2,439 event question records and 2,262 practical/rehearsal tasks across Area, State and Nationals. Objective exams are limited to the 36 eligible events. Static skill alignment is candidate-only: 453 matched and 207 explicit gaps. Legacy Banking and Finance IDs/fixed sets remain preserved.
+- Optional browser-local AI now supports competency quizzes and event-specific presentation critique, with explicit enablement, structured validation, exact quote checks, cancellation and isolated sessions. Rules feedback remains available; no cloud inference is active.
+- Durable account-scoped event history, stable pagination, complete export and all-history distinct-question evidence are implemented with additive migration 0003. Approved six-character recovery (migration 0002), isolated Next/TypeScript/Three landing and existing accounts remain intact.
+- Integrated builds, strict TypeScript, all 78 Node tests and legacy regressions pass. Chrome verified event-specific practice/results, a practical reflection and the actual 370-point Parliamentary Procedure judged rubric/rules report. A 390px viewport had no horizontal overflow. All 84 exported source files match the remote tree.
+- Existing Site was re-read November 15: version 8, custom audience, one owner and zero external visitors. No deployment, migration or audience change occurred.
 
 ## Next
 
-1. Review PR #1 and its docs/development-2026-11-14.md evidence. Complete real-phone and realistic-network checks for performance and accessibility before merging/deploying.
-2. Inventory authorized historical papers and answer keys; expand independently reviewed event competencies and banks without claiming complete coverage. Current question coverage remains event 145; the catalog has 94 S/PS events.
-3. Once release gates pass, publish the existing Site without changing its owner-only audience; verify migration 0002, recovery, persistence and entitlements in the hosted runtime. Continue real-microphone testing separately.
+1. Review the draft's `docs/development-2026-11-15.md` and content provenance. Independently review questions, candidate skill alignment and practical scenarios; resolve the 207 static skill-question gaps without relabeling general questions.
+2. The owner requested a cloud option after this browser reported insufficient local-model hardware. `docs/cloud-ai-option.md` proposes Cloudflare Workers AI, a synthetic-only initial pilot, $0 additional spend and explicit limits. Obtain owner approval before any external inference; verify actual hosting/binding/billing support and account authority first.
+3. Validate real AI generation/critique, then complete real-phone/accessibility/realistic-network performance checks before release.
+4. Once release gates pass, publish the existing Site with its owner-only audience; verify migrations 0002/0003, recovery, history persistence and entitlements in the hosted runtime.
 
-## Blockers
+## Limits
 
-- No real-phone/network or p75 LCP/INP/CLS/FPS evidence is available. Production rollout is intentionally held under the master prompt's pre-deployment checks.
-- Authorized historical papers, complete competency/exam coverage and independent review of new educational content remain incomplete. No external AI service is enabled; approval is still required before external inference.
+- No real model inference or quality evaluation was possible on this device. No transcripts were sent to an external provider. Preparing an option is not approval to activate it.
+- Original content requires independent review; all-skill drills and possible runtime generation do not establish complete reviewed MCQ banks. Authorized historical papers/keys, Middle Level and state supplements are outside this delivery.
+- Real phone/network p75 Web Vitals/FPS and hosted migration evidence remain unavailable. The draft is not a completed production rollout.
