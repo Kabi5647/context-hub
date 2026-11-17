@@ -25,3 +25,11 @@
 - Completed event history uses immutable account-scoped endpoints and migration 0003. Profile snapshots retain active attempts; do not reintroduce completed-history truncation. Preserve idempotent retry, cursor pagination, identity checks and complete exports.
 - The browser reported that its local model cannot run on this hardware. The owner requested preparation of a cloud option only. The documented Cloudflare proposal is synthetic-only initially with $0 additional spend and is not enabled. Verify account/billing/binding support and obtain explicit external-inference approval before any call; student use requires further notices/permissions review.
 - Full local build and 78 tests passed, plus legacy regressions; exported source hashes were verified. Current production remains owner-only version 8 without the draft's migrations/features. See the November 15 handoff for remaining release gates.
+
+## November 16 teaching and private-landing checkpoint
+
+- Current draft head `2d4a70fa17a01453a683826d14b238330579badc` provides 274 event lesson placements from 50 teaching modules, each ending with five comprehension items. Read `docs/lessons.md` and `docs/development-2026-11-16.md`; original foundations are shared across related events and do not constitute full instruction for all 660 competencies.
+- Practice now has 4,622 event-scoped records, including lesson checks. Static candidate alignment is 480 skills with 180 explicit gaps. Preserve original seed IDs and unreviewed labels. Lesson retakes use stable IDs and immutable archived task identity; avoid changing canonical history serialization without compatibility handling.
+- Presentation reports derive evidence-grounded rehearsal plans instead of trusting raw model summaries. Keep human-only review and exact quotations. Saved source-link subsets remain compatible, while unrelated pages and criterion changes reject.
+- Explicit `#landing` and View landing page links are authenticated. Retain Sites owner-only sharing plus app approval. Production v8's original source has an authenticated landing fallback, so the permalink can be used after sign-in; the new visible link remains in the draft.
+- Full integrated check passed 97 tests and all regressions; all 92 sanitized source hashes were checked. No cloud calls, dependencies, Site deployment, migrations or access expansion occurred.

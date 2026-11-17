@@ -1,26 +1,26 @@
 # Status — BPA — Stride
 
-**Updated** 2026-11-15
+**Updated** 2026-11-16
 
 ## Done
 
-- [Draft PR #1](https://github.com/Kabi5647/BPA/pull/1), head `8a267b5fd2e9c574976acca0d339d4ae28fba714`, adds all 94 national Secondary/Postsecondary event competency lists: 660 searchable skills with selected-event onboarding, priorities and date/level recommendations.
-- All 46 presentation events have their own source-backed presentation-category mappings, actual component totals, human-review requirements and competition AI policy. Server-side Premium protection remains in place.
-- Reproducible original practice has 423 authored concepts expanded into 2,439 event question records and 2,262 practical/rehearsal tasks across Area, State and Nationals. Objective exams are limited to the 36 eligible events. Static skill alignment is candidate-only: 453 matched and 207 explicit gaps. Legacy Banking and Finance IDs/fixed sets remain preserved.
-- Optional browser-local AI now supports competency quizzes and event-specific presentation critique, with explicit enablement, structured validation, exact quote checks, cancellation and isolated sessions. Rules feedback remains available; no cloud inference is active.
-- Durable account-scoped event history, stable pagination, complete export and all-history distinct-question evidence are implemented with additive migration 0003. Approved six-character recovery (migration 0002), isolated Next/TypeScript/Three landing and existing accounts remain intact.
-- Integrated builds, strict TypeScript, all 78 Node tests and legacy regressions pass. Chrome verified event-specific practice/results, a practical reflection and the actual 370-point Parliamentary Procedure judged rubric/rules report. A 390px viewport had no horizontal overflow. All 84 exported source files match the remote tree.
-- Existing Site was re-read November 15: version 8, custom audience, one owner and zero external visitors. No deployment, migration or audience change occurred.
+- [Draft PR #1](https://github.com/Kabi5647/BPA/pull/1), head `2d4a70fa17a01453a683826d14b238330579badc`, integrates all 94 national Secondary/Postsecondary event paths, 660 official competencies and 46 presentation rubric contexts. Previous account, six-character recovery and isolated Next/Three introduction work remain included.
+- Teaching now uses 50 modules arranged into 274 event lesson placements: definitions, teaching sections, two worked examples, guided problems/solutions, common mistakes, event-specific application and exactly five comprehension questions at the end. Existing Banking lessons, notes, reviewed flags and study-task completion remain available.
+- Original practice grows to 4,622 event-scoped records from 799 authored seed cases plus reused legacy checks. New modules add 235 comprehension items and 141 separate levelled test cases before reuse. Related events share foundations; these are not 4,622 unique exams/questions. Objective examinations remain limited to the 36 eligible events.
+- Practice offers count/time controls and less-seen selection. Stable lesson question IDs and immutable history preserve five distinct responses across retakes. Account changes reset event selection; malformed task metadata cannot crash result rendering.
+- Presentation feedback derives prioritized actions with purpose/success checks, separates human/Q&A evidence and withholds unsupported observations or score claims. Current rubric-page links and older reports remain compatible. No external inference is enabled.
+- The owner requested viewing the landing without making the Site public. The draft adds explicit authenticated `#landing` routing and View landing page links. Signed-out rendering still requires access. Source inspection of deployed version 8 confirms the existing authenticated fallback can render the landing at that permalink; post-login production viewing was not tested in this phase.
+- Complete build, strict TypeScript, 97 Node tests and legacy regressions pass. Real SQL/arithmetic and SQLite archive checks pass. Chrome verified a full C# lesson-to-five-question-results flow and no horizontal overflow at 390px. All 92 source files match remote Git hashes.
+- Live hosting remains version 8, custom audience, one owner, zero external visitors. Saved version 8 source matches local original HEAD; no deployment, migration or audience change occurred.
 
 ## Next
 
-1. Review the draft's `docs/development-2026-11-15.md` and content provenance. Independently review questions, candidate skill alignment and practical scenarios; resolve the 207 static skill-question gaps without relabeling general questions.
-2. The owner requested a cloud option after this browser reported insufficient local-model hardware. `docs/cloud-ai-option.md` proposes Cloudflare Workers AI, a synthetic-only initial pilot, $0 additional spend and explicit limits. Obtain owner approval before any external inference; verify actual hosting/binding/billing support and account authority first.
-3. Validate real AI generation/critique, then complete real-phone/accessibility/realistic-network performance checks before release.
-4. Once release gates pass, publish the existing Site with its owner-only audience; verify migrations 0002/0003, recovery, history persistence and entitlements in the hosted runtime.
+1. Review teaching and answers independently; resolve 180 static skill-question gaps. Candidate alignment covers 480 of 660 skills. Foundational paths are not a complete course for every official competency.
+2. Evaluate real presentation/quiz model quality on compatible hardware or an explicitly approved cloud pilot. The requested synthetic-only Cloudflare/$0 option remains disabled; preparation was not external-inference approval.
+3. Complete real-phone/network/accessibility/FPS release checks. Then verify hosted migrations 0002/0003, recovery, archive persistence and entitlements while retaining owner-only access.
 
 ## Limits
 
-- No real model inference or quality evaluation was possible on this device. No transcripts were sent to an external provider. Preparing an option is not approval to activate it.
-- Original content requires independent review; all-skill drills and possible runtime generation do not establish complete reviewed MCQ banks. Authorized historical papers/keys, Middle Level and state supplements are outside this delivery.
-- Real phone/network p75 Web Vitals/FPS and hosted migration evidence remain unavailable. The draft is not a completed production rollout.
+- Independent subject review, real model inference, authorized historical papers/keys, real-phone/network metrics and hosted migration evidence remain open.
+- Middle Level and state supplements remain outside this catalog. A five-question comprehension result is practice evidence, not certified mastery or an official BPA score.
+- The new lessons, visible landing menu link and coach changes are in the draft, not production version 8.
